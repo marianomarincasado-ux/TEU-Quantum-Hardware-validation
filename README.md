@@ -127,8 +127,6 @@ El repositorio se divide en experimentos incrementales. Cada script está diseñ
 
 El siguiente gráfico vectorial muestra los resultados directos extraídos del procesador cuántico `ibm_fez` (133 qubits, enfriado a 15 mK). 
 
-*(Nota: Inserta aquí el archivo `teu_mass_curve_ibm_bw.svg` o `.png` generado)*
-![Curva de Masa Empírica TEU](imagen/teu_mass_curve_ibm_bw.svg)
 
 **Conclusión del Hardware:** La línea punteada representa la ecuación analítica perfecta. Los puntos representan los colapsos reales de la función de onda medidos por la máquina física. La estrella marca el régimen topológico del Electrón TEU. El hardware cuántico ruidoso (NISQ) traza fielmente la atenuación exponencial TEU a lo largo de 30 órdenes de magnitud.
 
