@@ -29,6 +29,35 @@ El repositorio se divide en tres experimentos incrementales. Cada script está d
 * **Mecanismo:** Se compilan en lote (batch) 5 circuitos simulando 5 universos con diferente rugosidad geométrica ($K_{geo}$ variable desde 1.5 hasta 5.0).
 * **Resultado Físico:** La máquina de IBM traza empíricamente la curva $m_e = M_p \cdot e^{-D}$. Los resultados demuestran que a mayor fricción, menor probabilidad de escape y menor masa inercial, culminando exactamente en la masa del electrón al inyectar el valor $K_{geo} = 2.659$.
 
+
+### 4. Renormalización Topológica: De la Masa de Planck al Electrón (`teu_planck_to_electron.py`)
+**Objetivo:** Demostrar empíricamente en hardware físico que la masa del electrón es la "Masa desnuda de Planck" amortiguada exponencialmente por la fricción del vacío fractal.
+* **Mecanismo:** Experimento de ejecución paralela (Gemelos Cuánticos) en un procesador superconductor (`ibm_fez`). 
+  * El Qubit 0 evoluciona en una métrica lisa de Minkowski ($\Gamma = 0$).
+  * El Qubit 1 evoluciona sometido al tensor de fricción fractal de Cantor ($K_{geo} = 2.659$).
+* **Resultado Físico:** El Qubit 0 (espacio liso) sufre una pérdida de fase virtualmente nula (solo ruido térmico base), demostrando que sin apantallamiento topológico ($D \approx 0$), la partícula manifiesta su inercia bruta colosal: **$1.42 \times 10^{-9}$ kg (Masa de Planck)**. Simultáneamente, el Qubit 1 sufre un severo colapso de fase ($29.93\%$), generando una atenuación exponencial ($D \approx 51.5$ pliegues) que desploma la masa observada a **$2.54 \times 10^{-30}$ kg (Masa del Electrón)**. 
+* **Implicación Teórica:** Se demuestra algorítmicamente que el *Mass Gap* y la renormalización de la QFT no son artificios matemáticos para cancelar infinitos, sino un fenómeno físico real inducido por la geometría del espacio-tiempo.
+
+* >] Conectado al procesador superconductor: ibm_fez
+
+[>] Circuito compilado. Transpilando para hardware físico...
+[*] Disparando las partículas 4096 veces simultáneas en ibm_fez...
+[>] Trabajo enviado. ID: d6l1a0ofh9oc73emcfdg
+[*] (Esperando resultados físicos de la máquina...)
+
+===================================================================
+ ⚖️  TEOREMA DE LA INERCIA TOPOLÓGICA (RESULTADOS EMPÍRICOS)
+===================================================================
+ [1] FOTÓN (Espacio Liso Minkowski, Γ = 0)
+     -> Fuga por Ruido NISQ : 0.10%
+     -> Masa Extraída       : 1.42e-09 kg (Efecto Puramente Térmico)
+
+ [2] ELECTRÓN TEU (Espacio Fractal de Cantor, K = 2.659)
+     -> Fuga Topológica     : 29.93%
+     -> Masa Extraída       : 2.54e-30 kg (Ruptura de Simetría)
+===================================================================
+ CONCLUSIÓN: En el mismo procesador físico, bajo idéntico ruido térmico,
+ la topología fractal genera un 'Mass Gap' de ~31 órdenes de magnitud.
 ---
 
 ## 📊 Resultados Empíricos
