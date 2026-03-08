@@ -3,6 +3,7 @@
 ![Qiskit](https://img.shields.io/badge/Qiskit-Tested-blue)
 ![Hardware](https://img.shields.io/badge/IBM_Quantum-ibm__fez-purple)
 ![Status](https://img.shields.io/badge/Status-Empirically_Validated-success)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18807956.svg)](https://doi.org/10.5281/zenodo.18807956)
 
 Este repositorio contiene la validación experimental y computable del **Modelo del Universo Topológico del Electrón (TEU)**. Utilizando el framework cuántico Qiskit, las ecuaciones continuas de la teoría TEU se han traducido a circuitos de puertas lógicas discretas y se han ejecutado empíricamente en hardware superconductor real (Arquitectura IBM Heron, procesador `ibm_fez`).
 
