@@ -1,0 +1,116 @@
+{
+  "__type__": "PrimitiveResult",
+  "__value__": {
+    "pub_results": [
+      {
+        "__type__": "PubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "evs",
+                "stds",
+                "evs_noise_factors",
+                "stds_noise_factors",
+                "ensemble_stds_noise_factors",
+                "evs_extrapolated",
+                "stds_extrapolated"
+              ],
+              "field_types": [
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>"
+              ],
+              "shape": [],
+              "fields": {
+                "evs": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqaOgq1ChQBLtdKkU0zVG/aAwA1fx6Y"
+                },
+                "stds": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqaOgq1ChQBrrvOyub5Z9vtATdoHrs="
+                },
+                "evs_noise_factors": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrGOpo6CrUKFAAujjmmZ5itbtqfTw9aZbLphr147kVbw7837AFlyiZe"
+                },
+                "stds_noise_factors": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrGOpo6CrUKFACua5lSgUe7Ku2XvdSwmve40r45MU+0yarCHgB1ECYT"
+                },
+                "ensemble_stds_noise_factors": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrGOpo6CrUKFACu84aTGB+4FtsfPRKbJxlebH+udYvLEt9iewBvHiYs"
+                },
+                "evs_extrapolated": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpGOgommjoKtQpkAy7XSpFNM1Rv2s8zKH0iI37T/lwdn7fdrxv2oboVLxvu3rCPUOcIcwbKWz7KWfVe7Kb973CzYA+g/N6z/38vAMoDAO0hO34="
+                },
+                "stds_extrapolated": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpGOgommjoKtQpkA667zsrm+Wfb7WNOCSxZy9FkLxQ0YZ1GXZm93dJFLWudGu3//J/Rpb673d7fvf0pM1A+7vDKhM1NZfYZf+ermrk12gMA0BY3/g=="
+                }
+              }
+            }
+          },
+          "metadata": {
+            "shots": 40000,
+            "target_precision": 0.005,
+            "circuit_metadata": {},
+            "resilience": {
+              "zne": {
+                "extrapolator": "exponential"
+              }
+            },
+            "num_randomizations": 32
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "dynamical_decoupling": {
+        "enable": false,
+        "sequence_type": "XX",
+        "extra_slack_distribution": "middle",
+        "scheduling_method": "alap"
+      },
+      "twirling": {
+        "enable_gates": false,
+        "enable_measure": true,
+        "num_randomizations": "auto",
+        "shots_per_randomization": "auto",
+        "interleave_randomizations": true,
+        "strategy": "active-accum"
+      },
+      "resilience": {
+        "measure_mitigation": true,
+        "zne_mitigation": true,
+        "pec_mitigation": false,
+        "zne": {
+          "noise_factors": [
+            1,
+            3,
+            5
+          ],
+          "extrapolator": [
+            "exponential",
+            "linear"
+          ],
+          "extrapolated_noise_factors": [
+            0,
+            1,
+            3,
+            5
+          ]
+        }
+      },
+      "version": 2
+    }
+  }
+}
