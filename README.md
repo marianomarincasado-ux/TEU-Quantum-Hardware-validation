@@ -12,7 +12,7 @@ El objetivo de estos scripts es demostrar que la masa inercial no es un parámet
 
 ## 🔬 Experimentos y Scripts
 
-El repositorio se divide en tres experimentos incrementales. Cada script está diseñado para ejecutarse nativamente en la nube de IBM Quantum.
+El repositorio se divide en experimentos incrementales. Cada script está diseñado para ejecutarse nativamente en la nube de IBM Quantum.
 
 ### 1. Quantum Random Walk (`teu_quantum_walk.py`)
 **Objetivo:** Demostrar el confinamiento topológico sub-difusivo.
