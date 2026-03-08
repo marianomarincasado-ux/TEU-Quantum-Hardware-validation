@@ -1,0 +1,116 @@
+{
+  "__type__": "PrimitiveResult",
+  "__value__": {
+    "pub_results": [
+      {
+        "__type__": "PubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "evs",
+                "stds",
+                "evs_noise_factors",
+                "stds_noise_factors",
+                "ensemble_stds_noise_factors",
+                "evs_extrapolated",
+                "stds_extrapolated"
+              ],
+              "field_types": [
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>",
+                "<class 'numpy.ndarray'>"
+              ],
+              "shape": [],
+              "fields": {
+                "evs": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqaOgq1ChQBriNXjglPdH+2HwA96SAt"
+                },
+                "stds": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqaOgq1ChQBrhmetjGb89vsATazHqA="
+                },
+                "evs_noise_factors": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrGOpo6CrUKFAAuhpfRZQw/nu7fnH03+sXap/s5fu66t5nx6X4AlFQqNA=="
+                },
+                "stds_noise_factors": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrGOpo6CrUKFACuB3+9rsaHNdm/yFOfazKj2f5Y8I+TWp4N9gCIeCeE"
+                },
+                "ensemble_stds_noise_factors": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrGOpo6CrUKFACuGYc1Nt52q7Dn4OL/N8u/wl4q3o2nMLnCHgBj1yR/"
+                },
+                "evs_extrapolated": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpGOgommjoKtQpkA64jV44JT3R/tl994n2LTvZn+/89Emme3/l0/9yNhVWtfE/395Z3PLns+mx/vN1ZvgKgPMuZsOQVXU/3r4h8sP0B79P9AOBOQF8="
+                },
+                "stds_extrapolated": {
+                  "__type__": "ndarray",
+                  "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpGOgommjoKtQpkA64ZnrYxm/Pb7DfOuLN63acGe4a5KbfOXCixP22zJymtvM6et8iSNTqv1b7sgoTLlowGeyPpdgs+lxJ79a0XxXS319oDAAdPNyU="
+                }
+              }
+            }
+          },
+          "metadata": {
+            "shots": 40000,
+            "target_precision": 0.005,
+            "circuit_metadata": {},
+            "resilience": {
+              "zne": {
+                "extrapolator": "exponential"
+              }
+            },
+            "num_randomizations": 32
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "dynamical_decoupling": {
+        "enable": false,
+        "sequence_type": "XX",
+        "extra_slack_distribution": "middle",
+        "scheduling_method": "alap"
+      },
+      "twirling": {
+        "enable_gates": false,
+        "enable_measure": true,
+        "num_randomizations": "auto",
+        "shots_per_randomization": "auto",
+        "interleave_randomizations": true,
+        "strategy": "active-accum"
+      },
+      "resilience": {
+        "measure_mitigation": true,
+        "zne_mitigation": true,
+        "pec_mitigation": false,
+        "zne": {
+          "noise_factors": [
+            1,
+            3,
+            5
+          ],
+          "extrapolator": [
+            "exponential",
+            "linear"
+          ],
+          "extrapolated_noise_factors": [
+            0,
+            1,
+            3,
+            5
+          ]
+        }
+      },
+      "version": 2
+    }
+  }
+}
